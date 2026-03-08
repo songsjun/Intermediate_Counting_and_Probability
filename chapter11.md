@@ -1,7 +1,6 @@
 # Chapter 11: Conditional Probability
 
-> The thing about science fiction is that it's totally wide open. But it's wide open in a conditional way.
-> -Octavia Butler
+*"The thing about science fiction is that it's totally wide open. But it's wide open in a conditional way."* -- Octavia Butler
 
 ## 11.1 Introduction
 
@@ -23,7 +22,7 @@ However, it is true that some conditional probability problems produce results t
 
 Therefore, we see that if the contestant switches, he has a probability $\frac{1}{3}+\frac{1}{3}=\frac{2}{3}$ of winning, and probability $\frac{1}{6}+\frac{1}{6}=\frac{1}{3}$ of losing.
 
-> Sidenote: The controversy surrounding the publication of the Monty Hall problem in the popular Sunday newspaper supplement Parade was detailed in a July 21, 1991 front-page story in The New York Times.
+> **Sidenote:** The controversy surrounding the publication of the Monty Hall problem in the popular Sunday newspaper supplement Parade was detailed in a July 21, 1991 front-page story in The New York Times.
 
 **Problem 11.10:** You and two other prisoners are in jail. Tomorrow, two of you will be sentenced to life in prison, but the third will be set free; any one of the three of you is equally likely to be the one set free. The jailer is sitting just outside the bars. You ask the jailer if you are the one to be set free.
 (a) The jailer says he knows who will be let free, but he won't tell you if you are the one to be freed. He does, however, point at one of the other two and tells you that that person will not be released. What is the probability that you will be set free?
@@ -41,9 +40,9 @@ $$\frac{P(\text { you're freed and you draw another name })}{P(\text { you draw 
 
 ## 11.5 Exercises
 
-11.5.1 Suppose there are 10 curtains with 1 car and 9 goats. After the initial selection, the host reveals 8 of the goats. What's the probability of winning if the contestant switches?
+**11.5.1** Suppose there are 10 curtains with 1 car and 9 goats. After the initial selection, the host reveals 8 of the goats. What's the probability of winning if the contestant switches?
 
-11.5.2\* Suppose there are 4 curtains with 1 car and 3 goats. The host reveals one goat and gives the contestant the opportunity to switch. Then the host reveals a second goat and again gives the contestant the opportunity to switch. What's the best strategy, and what's the probability of winning the car if it is followed? Hints: 7
+**11.5.2$\star$** Suppose there are 4 curtains with 1 car and 3 goats. The host reveals one goat and gives the contestant the opportunity to switch. Then the host reveals a second goat and again gives the contestant the opportunity to switch. What's the best strategy, and what's the probability of winning the car if it is followed? **Hints:** 7
 
 ## 11.6 Summary
 
@@ -58,9 +57,9 @@ $$P(A \mid B)=\frac{P(A \cap B)}{P(B)} .$$
 
 Here are some general problem-solving concepts:
 
-> Concept: Checking the extreme cases is often an easy way to do a quick check of a formula.
+> **Concept:** Checking the extreme cases is often an easy way to do a quick check of a formula.
 
-> Concept: Don't just blindly jump into calculations until you've first determined what it is you need to calculate.
+> **Concept:** Don't just blindly jump into calculations until you've first determined what it is you need to calculate.
 
 ## Review Problems
 
@@ -78,14 +77,12 @@ Here are some general problem-solving concepts:
 
 ## Challenge Problems
 
-**Problem 11.17:** The Royals and the Cubs play in the World Series while you fly to the moon and back. You find out when you return that the series lasted 6 games. You know that the Royals had a $\frac{2}{3}$ probability of winning each game. What is the probability that the Royals won the World Series? (Note that the World Series is a series of games played between two teams until one team has won 4 games.) Hints: 205
+**Problem 11.17:** The Royals and the Cubs play in the World Series while you fly to the moon and back. You find out when you return that the series lasted 6 games. You know that the Royals had a $\frac{2}{3}$ probability of winning each game. What is the probability that the Royals won the World Series? (Note that the World Series is a series of games played between two teams until one team has won 4 games.) **Hints:** 205
 
-**Problem 11.18:** Roger and Stacy each go to the county fair on the same day. They each separately show up at a random time between 12:00 and 6:00. Roger stays for an hour, whereas Stacy stays for 2 hours. If we know that at some time they were both at the fair simultaneously, what is the probability that they were both there at exactly 3:00? Hints: 254
+**Problem 11.18:** Roger and Stacy each go to the county fair on the same day. They each separately show up at a random time between 12:00 and 6:00. Roger stays for an hour, whereas Stacy stays for 2 hours. If we know that at some time they were both at the fair simultaneously, what is the probability that they were both there at exactly 3:00? **Hints:** 254
 
-**Problem 11.19:** A coin is flipped 20 times in a row. Given that exactly 14 heads appeared, find the probability that no two consecutive coin flips were both tails. Hints: 64, 85
+**Problem 11.19:** A coin is flipped 20 times in a row. Given that exactly 14 heads appeared, find the probability that no two consecutive coin flips were both tails. **Hints:** 64, 85
 
-**Problem 11.20:** ★ At the Lucky Losers' Casino, the craps game is played with a set of 5 dice. The pit boss notices one of the customers cheating by replacing one of the dice with a loaded die that rolls with probability $\frac{1}{2}$ (each of the other numbers on the loaded die show up with equal probability). Unfortunately, the boss can't tell which die is the loaded die (they all look identical), so he chooses one at random and rolls it 10 times. How many $\$$ s would he have to roll in order to be at least $90 \%$ sure that the chosen die is the loaded die? Hints: 257
+**Problem 11.20$\star$** At the Lucky Losers' Casino, the craps game is played with a set of 5 dice. The pit boss notices one of the customers cheating by replacing one of the dice with a loaded die that rolls with probability $\frac{1}{2}$ (each of the other numbers on the loaded die show up with equal probability). Unfortunately, the boss can't tell which die is the loaded die (they all look identical), so he chooses one at random and rolls it 10 times. How many $\$$ s would he have to roll in order to be at least $90 \%$ sure that the chosen die is the loaded die? **Hints:** 257
 
-**Problem 11.21:** \* 3 points $A, B, C$ are randomly chosen on the circumference of a circle. If $A, B, C$ all lie on a semicircle, then what is the probability that all of the angles of triangle ABC are less than $120^{\circ}$ ?
-
-Hints: 192
+**Problem 11.21$\star$** 3 points $A, B, C$ are randomly chosen on the circumference of a circle. If $A, B, C$ all lie on a semicircle, then what is the probability that all of the angles of triangle ABC are less than $120^{\circ}$ ? **Hints:** 192

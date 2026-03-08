@@ -1,6 +1,6 @@
 # Chapter 14: Generating Functions
 
-> You must try to generate happiness within yourself. -Ernie Banks
+*"You must try to generate happiness within yourself."* -- Ernie Banks
 
 ## 14.1 Introduction
 
@@ -23,7 +23,7 @@ In Section 14.4, we will see some special properties of this generating function
 - If our sequence is $0,1,1,2,3,5,8,13, \ldots$-the Fibonacci numbers-then the generating function is
 $$x+x^{2}+2 x^{3}+3 x^{4}+5 x^{5}+8 x^{6}+13 x^{7}+\cdots$$
 
-Although this seems rather unwieldy, it does have some nice properties, as we will see in Section 14.6 ★.
+Although this seems rather unwieldy, it does have some nice properties, as we will see in Section 14.6$\star$.
 
 ## 14.2 Basic Examples of Generating Functions
 
@@ -47,8 +47,7 @@ All of the problems in this section are very easy, and could easily be solved by
 
 *Solution for Problem 14.1:* Of course, this is an easy problem, and we could just list the possibilities in a table, as shown on the next page:
 
-> Extra! Not without a shudder may the human hand reach into the mysterious urn of destiny.
-> - Friedrich Schiller
+*"Not without a shudder may the human hand reach into the mysterious urn of destiny."* -- Friedrich Schiller
 
 But, by definition, $F_{k}=F_{k-1}+F_{k-2}$, so the above coefficient is zero! Hence, we have shown that
 $$g(x)=\left(1-x-x^{2}\right)\left(x+x^{2}+2 x^{3}+3 x^{4}+5 x^{5}+8 x^{6}+\cdots\right)=x$$
@@ -111,7 +110,7 @@ We think of the coefficient $a_{k}$ of $x^{k}$ as counting something that depend
 - One of the most commonly-used generating functions is for distributions of indistinguishable items. This function is $\frac{1}{(1-x)^{n}}$, and the coefficient of $x^{k}$ in $\frac{1}{(1-x)^{n}}$ is $\binom{n-1+k}{k}$, which counts the number of ways to distribute $k$ items into $n$ boxes (where some box(es) may remain empty).
 - Many distribution problems with ugly-looking casework can be solved much more simply by using generating functions.
 
-> Important: Generating functions are very valuable for problems involving partitions. The generating function for the number of partitions of a positive integer $n$ is
+> **Important:** Generating functions are very valuable for problems involving partitions. The generating function for the number of partitions of a positive integer $n$ is
 > $$\left(1+x+x^{2}+\cdots\right)\left(1+x^{2}+x^{4}+\cdots\right)\left(1+x^{3}+x^{6}+\cdots\right) \cdots=\frac{1}{(1-x)\left(1-x^{2}\right)\left(1-x^{3}\right) \cdots}=\prod_{k=1}^{\infty} \frac{1}{1-x^{k}}$$
 
 - The generating function for the Fibonacci numbers is
@@ -152,36 +151,36 @@ is simplified by expanding it and combining like terms. How many terms are in th
 
 **Problem 14.28:** Compute
 $$\sum_{k=0}^{\infty} k\left(\frac{1}{3}\right)^{k}$$
-using generating functions. Hints: 48, 234
+using generating functions. **Hints:** 48, 234
 
 **Problem 14.29:** Define $Q(n, k)$ to be the coefficient of $x^{k}$ in the expansion of $\left(1+x+x^{2}+x^{3}\right)^{n}$. Prove that
 $$Q(n, k)=\sum_{j=0}^{k}\binom{n}{j}\binom{n}{k-2 j}$$
-where $\left({ }_{r}^{n}\right)=0$ if $r<0$. (Source: Putnam) Hints: 21
+where $\left({ }_{r}^{n}\right)=0$ if $r<0$. (Source: Putnam) **Hints:** 21
 
-**Problem 14.30:** ★ We can generalize the Binomial Theorem to negative powers. Specifically, for any positive integer $n$, we can write
+**Problem 14.30$\star$** We can generalize the Binomial Theorem to negative powers. Specifically, for any positive integer $n$, we can write
 $$(x+y)^{-n}=a_{0} x^{-n}+a_{1} x^{-(n+1)} y+a_{2} x^{-(n+2)} y^{2}+\cdots$$
 for some coefficients $a_{k}$, provided that $\left|\frac{y}{x}\right|<1$.
-(a) Prove that $a_{k}=(-1)^{k}\binom{n+k-1}{k}$. Hints: 77, 50
-(b) Explain why it makes sense to write $a_{k}=\binom{-n}{k}$. Hints: 18
+(a) Prove that $a_{k}=(-1)^{k}\binom{n+k-1}{k}$. **Hints:** 77, 50
+(b) Explain why it makes sense to write $a_{k}=\binom{-n}{k}$. **Hints:** 18
 
-**Problem 14.31:** \* Let $k$ be a positive integer. Prove that there are exactly $k$ ordered pairs $(x, y)$ of nonnegative integers that satisfy any one of the following equations:
+**Problem 14.31$\star$** Let $k$ be a positive integer. Prove that there are exactly $k$ ordered pairs $(x, y)$ of nonnegative integers that satisfy any one of the following equations:
 $$\begin{aligned}
 x+3 y & =2 k-1, \\
 3 x+5 y & =2 k-3, \\
 \vdots & \\
 (2 k-1) x+(2 k+1) y & =1 .
 \end{aligned}$$
-(For example, if $k=2$, then there are two equations $x+3 y=3$ and $3 x+5 y=1$. The 2 solutions are $(3,0)$ and ( 0,1 ); notice that both satisfy the first equation.) (Source: Mandelbrot) Hints: 184, 86, 111
+(For example, if $k=2$, then there are two equations $x+3 y=3$ and $3 x+5 y=1$. The 2 solutions are $(3,0)$ and ( 0,1 ); notice that both satisfy the first equation.) (Source: Mandelbrot) **Hints:** 184, 86, 111
 
-**Problem 14.32:** \*
+**Problem 14.32$\star$**
 (a) Let
 $$C(x)=1+x+2 x^{2}+5 x^{3}+14 x^{4}+\cdots$$
 be the generating function for the Catalan numbers, so that the coefficient of $x^{n}$ is the $n^{\text {th }}$ Catalan number. Prove that
 $$C(x)=x(C(x))^{2}+1 .$$
 
-Hints: 230
-(b) ★ Prove that
+**Hints:** 230
+(b)$\star$ Prove that
 $$C(x)=\frac{1-\sqrt{1-4 x}}{2 x} .$$
 
-Hints: 100
-(c) ★ Use the generating function to find a closed-form formula for the $n^{\text {th }}$ Catalan number. Hints: 324
+**Hints:** 100
+(c)$\star$ Use the generating function to find a closed-form formula for the $n^{\text {th }}$ Catalan number. **Hints:** 324

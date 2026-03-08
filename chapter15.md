@@ -1,6 +1,6 @@
 # Chapter 15: Graph Theory
 
-> At what point on the graph do "must" and "cannot" meet? Yet I must, but I cannot! - Ro-Man, Robot Monster
+*"At what point on the graph do "must" and "cannot" meet? Yet I must, but I cannot!"* -- Ro-Man, Robot Monster
 
 ## 15.1 Introduction
 
@@ -15,7 +15,7 @@ The graph lets us see complex relationships a lot more easily than a simple list
 
 ## 15.6 Exercises
 
-15.6.4 ★ An $n$-dimensional cube (for $n \geq 2$) is a graph with $2^{n}$ vertices that are in 1-1 correspondence with $n$-tuples of 0's and 1's. Two vertices are connected by an edge if and only if they differ in exactly one coordinate. (The graph of the 3-dimensional cube is show at right.) Show that an $n$-dimensional cube has a Hamiltonian cycle. Hints: 84
+**15.6.4$\star$** An $n$-dimensional cube (for $n \geq 2$) is a graph with $2^{n}$ vertices that are in 1-1 correspondence with $n$-tuples of 0's and 1's. Two vertices are connected by an edge if and only if they differ in exactly one coordinate. (The graph of the 3-dimensional cube is show at right.) Show that an $n$-dimensional cube has a Hamiltonian cycle. **Hints:** 84
 
 ## 15.7 Summary
 
@@ -37,9 +37,9 @@ The graph lets us see complex relationships a lot more easily than a simple list
 
 We also saw the following general problem-solving concepts:
 
-> Concept: In order to prove that $n$ is the minimum possible integer number of something in a problem, we need to show two things: that $n$ is possible, and that $n-1$ (or less) is impossible.
+> **Concept:** In order to prove that $n$ is the minimum possible integer number of something in a problem, we need to show two things: that $n$ is possible, and that $n-1$ (or less) is impossible.
 
-> Concept: Often when solving a problem, it pays to focus on the object with the most of something (or the least of something). This is sometimes referred to as the extremal principle.
+> **Concept:** Often when solving a problem, it pays to focus on the object with the most of something (or the least of something). This is sometimes referred to as the extremal principle.
 
 ## Review Problems
 
@@ -69,17 +69,17 @@ $$d(A, C) \leq d(A, B)+d(B, C) .$$
 
 ## Challenge Problems
 
-**Problem 15.29:** In the ham radio club, there are 78 members, and each member is friends with at least 52 other members. Prove that there are 4 members with the same number of friends. Hints: 318, 247
+**Problem 15.29:** In the ham radio club, there are 78 members, and each member is friends with at least 52 other members. Prove that there are 4 members with the same number of friends. **Hints:** 318, 247
 
-**Problem 15.30:** Suppose there is a group of people in which each person has at most 3 enemies, and enemies are mutual (i.e. if person A hates person B, then person B also hates person A). Prove that it is possible to split the people into two groups so that each person has at most one enemy in his or her group. Hints: 28
+**Problem 15.30:** Suppose there is a group of people in which each person has at most 3 enemies, and enemies are mutual (i.e. if person A hates person B, then person B also hates person A). Prove that it is possible to split the people into two groups so that each person has at most one enemy in his or her group. **Hints:** 28
 
 **Problem 15.31:** A city has the following property: if any set of citizens were to meet, the number of introductions necessary to acquaint everyone would be less than the number of citizens present. Prove that the city may be partitioned into two groups of people, such that each person knows everyone else in their group.
-Hints: 221
+**Hints:** 221
 
-**Problem 15.32:** At a homecoming dance, no boy dances with every girl, but each girl dances with at least one boy. Prove that there are two couples $g$ and $g^{\prime} b^{\prime}$ who dance such that $g$ doesn't dance with $b^{\prime}$ and $g^{\prime}$ doesn't dance with b. (Source: Putnam) Hints: 152
+**Problem 15.32:** At a homecoming dance, no boy dances with every girl, but each girl dances with at least one boy. Prove that there are two couples $g$ and $g^{\prime} b^{\prime}$ who dance such that $g$ doesn't dance with $b^{\prime}$ and $g^{\prime}$ doesn't dance with b. (Source: Putnam) **Hints:** 152
 
-**Problem 15.33:** \* Prove that if $G$ is a connected graph with $n$ vertices, and each vertex of $G$ has degree at least $n / 2$, then $G$ has a Hamiltonian cycle. (This is known as Dirac's Theorem.) Hints: 22
+**Problem 15.33$\star$:** Prove that if $G$ is a connected graph with $n$ vertices, and each vertex of $G$ has degree at least $n / 2$, then $G$ has a Hamiltonian cycle. (This is known as Dirac's Theorem.) **Hints:** 22
 
-**Problem 15.34:** \* A domino consists of two squares, each of which is marked with between 0 and 6 dots (inclusive). The complete set of 28 dominos is shown at right. Is it possible to arrange all 28 dominos in a circle, such that adjacent halves of neighboring dominos have the same number of dots? Hints: 88, 349
+**Problem 15.34$\star$:** A domino consists of two squares, each of which is marked with between 0 and 6 dots (inclusive). The complete set of 28 dominos is shown at right. Is it possible to arrange all 28 dominos in a circle, such that adjacent halves of neighboring dominos have the same number of dots? **Hints:** 88, 349
 
-**Problem 15.35:** \* In the country of Eulandia, any two cities are connected either by rail or by bus (but not both). Prove that for any city, we can choose a type of transportation (rail or bus) such that every other city in Eulandia can be reached via the chosen type of transportation with at most 1 transfer. Hints: 135
+**Problem 15.35$\star$:** In the country of Eulandia, any two cities are connected either by rail or by bus (but not both). Prove that for any city, we can choose a type of transportation (rail or bus) such that every other city in Eulandia can be reached via the chosen type of transportation with at most 1 transfer. **Hints:** 135
