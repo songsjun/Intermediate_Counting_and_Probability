@@ -1,0 +1,26 @@
+<!DOCTYPE html>
+<html>
+<head>
+<meta charset="UTF-8">
+<script>
+  // GitHub Pages SPA redirect
+  // /repo-name/chapter5 -> /repo-name/?p=chapter5
+  // Works regardless of repo name by finding the last path segment
+  var loc = window.location;
+  var path = loc.pathname;
+  // Extract everything after the last directory that contains index.html
+  // For /foo/bar/chapter5 -> base=/foo/bar/, route=chapter5
+  var segments = path.split('/').filter(Boolean);
+  var route = segments.pop(); // e.g. "chapter5"
+  var base = '/' + segments.join('/') + '/';
+  loc.replace(
+    loc.protocol + '//' + loc.hostname + (loc.port ? ':' + loc.port : '') +
+    base + '?p=' + encodeURIComponent(route) +
+    (loc.search ? '&' + loc.search.slice(1) : '') +
+    loc.hash
+  );
+</script>
+</head>
+<body>
+</body>
+</html>
